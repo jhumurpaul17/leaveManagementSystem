@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="055b1589c326e2108622153ed40131ea" label="Leave Calculator" max_length="40" name="x_1783975_lms_leave_calculator" type="collection">
+        <element label="Starting Month" max_length="40" name="starting_month" type="string"/>
+        <element label="End Month" max_length="40" name="end_month" type="string"/>
+        <element label="Leaves" max_length="40" name="leaves" type="float"/>
+        <element choice="3" default="y" label="Leave Assignment" max_length="40" name="leave_assignment" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Monthly" value="m"/>
+                <element inactive_on_update="false" label="Yearly" value="y"/>
+            </choice>
+        </element>
+        <element label="Country" max_length="32" name="country" reference="core_country" type="reference"/>
+        <element choice="1" choice_field="leave_type" choice_table="x_1783975_lms_leave_bucket" label="Leave Type" max_length="40" name="leave_type" reference_qual="null" reference_qual_condition="null" type="choice">
+            <choice/>
+        </element>
+        <index name="index">
+            <element name="country"/>
+        </index>
+    </element>
+</database>
