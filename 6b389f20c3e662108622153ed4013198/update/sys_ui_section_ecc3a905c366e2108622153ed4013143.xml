@@ -1,86 +1,86 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_ui_section caption="" section_id="ecc3a905c366e2108622153ed4013143" sys_domain="global" table="x_1783975_lms_leave_calculator" version="3" view="">
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>.begin_split</element>
+            <element>leave_type</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-07-03 13:16:45</sys_created_on>
-            <sys_id>7cc36545c366e2108622153ed4013184</sys_id>
+            <sys_created_on>2025-07-04 17:28:10</sys_created_on>
+            <sys_id>51e6e39dc3a266108622153ed401319a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1783975_lms_leave_calculator" sys_domain="global" view="Default view">ecc3a905c366e2108622153ed4013143</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-07-03 13:16:45</sys_updated_on>
-            <sys_user/>
-            <type>.begin_split</type>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>leave_type</element>
-            <position>1</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-07-03 13:16:45</sys_created_on>
-            <sys_id>f8c36545c366e2108622153ed4013185</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_1783975_lms_leave_calculator" sys_domain="global" view="Default view">ecc3a905c366e2108622153ed4013143</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-07-03 13:16:45</sys_updated_on>
+            <sys_updated_on>2025-07-04 17:28:10</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>starting_month</element>
-            <position>2</position>
+            <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-07-03 13:16:45</sys_created_on>
-            <sys_id>70c36545c366e2108622153ed4013186</sys_id>
+            <sys_created_on>2025-07-04 17:28:10</sys_created_on>
+            <sys_id>d5e6e39dc3a266108622153ed401319a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1783975_lms_leave_calculator" sys_domain="global" view="Default view">ecc3a905c366e2108622153ed4013143</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-07-03 13:16:45</sys_updated_on>
+            <sys_updated_on>2025-07-04 17:28:10</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>end_month</element>
-            <position>3</position>
+            <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-07-03 13:16:45</sys_created_on>
-            <sys_id>f4c36545c366e2108622153ed4013186</sys_id>
+            <sys_created_on>2025-07-04 17:28:10</sys_created_on>
+            <sys_id>6de6e39dc3a266108622153ed401319a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1783975_lms_leave_calculator" sys_domain="global" view="Default view">ecc3a905c366e2108622153ed4013143</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-07-03 13:16:45</sys_updated_on>
+            <sys_updated_on>2025-07-04 17:28:10</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>4</position>
+            <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-07-03 13:16:45</sys_created_on>
-            <sys_id>7cc36545c366e2108622153ed4013186</sys_id>
+            <sys_created_on>2025-07-04 17:28:10</sys_created_on>
+            <sys_id>e1e6e39dc3a266108622153ed401319b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1783975_lms_leave_calculator" sys_domain="global" view="Default view">ecc3a905c366e2108622153ed4013143</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-07-03 13:16:45</sys_updated_on>
+            <sys_updated_on>2025-07-04 17:28:10</sys_updated_on>
             <sys_user/>
             <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>country</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-07-04 17:28:10</sys_created_on>
+            <sys_id>69e6e39dc3a266108622153ed401319b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1783975_lms_leave_calculator" sys_domain="global" view="Default view">ecc3a905c366e2108622153ed4013143</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-07-04 17:28:10</sys_updated_on>
+            <sys_user/>
+            <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>leaves</element>
             <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-07-03 13:16:45</sys_created_on>
-            <sys_id>f0c36545c366e2108622153ed4013187</sys_id>
+            <sys_created_on>2025-07-04 17:28:10</sys_created_on>
+            <sys_id>ede6e39dc3a266108622153ed401319b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1783975_lms_leave_calculator" sys_domain="global" view="Default view">ecc3a905c366e2108622153ed4013143</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-07-03 13:16:45</sys_updated_on>
+            <sys_updated_on>2025-07-04 17:28:10</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -88,43 +88,15 @@
             <element>leave_assignment</element>
             <position>6</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-07-03 13:16:45</sys_created_on>
-            <sys_id>78c36545c366e2108622153ed4013187</sys_id>
+            <sys_created_on>2025-07-04 17:28:10</sys_created_on>
+            <sys_id>65e6e39dc3a266108622153ed401319c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1783975_lms_leave_calculator" sys_domain="global" view="Default view">ecc3a905c366e2108622153ed4013143</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-07-03 13:16:45</sys_updated_on>
+            <sys_updated_on>2025-07-04 17:28:10</sys_updated_on>
             <sys_user/>
             <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>country</element>
-            <position>7</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-07-03 13:16:45</sys_created_on>
-            <sys_id>fcc36545c366e2108622153ed4013187</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_1783975_lms_leave_calculator" sys_domain="global" view="Default view">ecc3a905c366e2108622153ed4013143</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-07-03 13:16:45</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>.end_split</element>
-            <position>8</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-07-03 13:16:45</sys_created_on>
-            <sys_id>74c36545c366e2108622153ed4013188</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_1783975_lms_leave_calculator" sys_domain="global" view="Default view">ecc3a905c366e2108622153ed4013143</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-07-03 13:16:45</sys_updated_on>
-            <sys_user/>
-            <type>.end_split</type>
         </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
             <caption/>

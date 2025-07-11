@@ -11,7 +11,12 @@
         </element>
         <element label="Country" max_length="32" name="country" reference="core_country" type="reference"/>
         <element choice="1" choice_field="leave_type" choice_table="x_1783975_lms_leave_bucket" label="Leave Type" max_length="40" name="leave_type" reference_qual="null" reference_qual_condition="null" type="choice">
-            <choice/>
+            <choice>
+                <element inactive_on_update="false" label="WFH" sequence="3" value="wfh"/>
+                <element inactive_on_update="false" label="Casual Leave" sequence="0" value="cl"/>
+                <element inactive_on_update="false" label="Earned Leave" sequence="1" value="el"/>
+                <element inactive_on_update="false" label="Sick Leave" sequence="2" value="sl"/>
+            </choice>
         </element>
         <index name="index">
             <element name="country"/>
