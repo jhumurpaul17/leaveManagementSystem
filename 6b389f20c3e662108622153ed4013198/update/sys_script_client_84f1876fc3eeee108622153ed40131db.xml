@@ -4,59 +4,51 @@
         <applies_extended>false</applies_extended>
         <condition/>
         <description/>
-        <field>half_day</field>
+        <field>leave_type</field>
         <global>true</global>
         <isolate_script>true</isolate_script>
         <messages/>
-        <name>setDuration for Half day</name>
+        <name>Populate Leave Details</name>
         <order/>
         <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
    if (isLoading || newValue === '') {
       return;
    }
-   function setDuration() {
-	var start = g_form.getValue('start_date');
-   var ga = new GlideAjax('lmsAjax');
-	ga.addParam('sysparm_name', 'getDateDiff');
-	ga.addParam('sysparm_start', start);
-	ga.addParam('sysparm_end', newValue);
-	ga.getXML(getDuration);
-
-	function getDuration(response) {
-		var answer = response.responseXML.documentElement.getAttribute('answer');
-		var days = (answer/ (1000*60*60*24));
-		g_form.setValue('duration', days);
-	}
-   }
 
    //Type appropriate comment here, and begin script below
+   var ga = new GlideAjax('lmsAjax');
+   ga.addParam('sysparm_name', 'getleaveBucket');
+   ga.addParam('sysparm_user', g_user.userID);
+   ga.addParam('sysparm_leavetype', newValue);
+   ga.getXML(getBucket);
 
-   var halfd = g_form.getValue('half_day');
-   if(halfd == 'true') {
-	g_form.setValue('duration', '0.5');
-   } else {
-	setDuration();
+   function getBucket(response) {
+	var answer = response.responseXML.documentElement.getAttribute('answer');
+	var result = JSON.parse(answer);
+	g_form.setValue('accrued', result.accrued);
+	g_form.setValue('balance', result.balance);
+	g_form.setValue('taken', result.taken);
    }
    
 }]]></script>
         <sys_class_name>sys_script_client</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-07-09 12:40:32</sys_created_on>
+        <sys_created_on>2025-07-11 14:57:20</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>d79498c7c3ea2e108622153ed4013135</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>setDuration for Half day</sys_name>
+        <sys_id>84f1876fc3eeee108622153ed40131db</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Populate Leave Details</sys_name>
         <sys_overrides/>
         <sys_package display_value="Leave Management System" source="x_1783975_lms">6b389f20c3e662108622153ed4013198</sys_package>
         <sys_policy/>
         <sys_scope display_value="Leave Management System">6b389f20c3e662108622153ed4013198</sys_scope>
-        <sys_update_name>sys_script_client_d79498c7c3ea2e108622153ed4013135</sys_update_name>
+        <sys_update_name>sys_script_client_84f1876fc3eeee108622153ed40131db</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-07-15 11:11:13</sys_updated_on>
+        <sys_updated_on>2025-07-15 10:57:29</sys_updated_on>
         <table>x_1783975_lms_leave_request</table>
         <type>onChange</type>
-        <ui_type>0</ui_type>
+        <ui_type>10</ui_type>
         <view/>
     </sys_script_client>
 </record_update>
