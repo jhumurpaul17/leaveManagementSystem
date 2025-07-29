@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="live_feed=true" audit="true" db_object_id="85631e6cc891221055906c7518aa2d5b" defaultsort="-1" extends="task" label="Problem" max_length="40" name="problem" text_index="true" type="collection">
+        <element label="Incident Count" max_length="40" name="x_1783975_lms_incident_count" type="integer"/>
+    </element>
+</database>
